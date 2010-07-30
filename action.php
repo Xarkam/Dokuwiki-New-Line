@@ -40,7 +40,7 @@ class action_plugin_newline extends DokuWiki_Action_Plugin {
             'type' => 'format',
             'title' => $this->getLang('qb_newlinebutton'),
             'icon' => '../../plugins/newline/newline.png',
-            'open' => '\\\\',
+            'open' => '\\\\ ',
             'close' => '',
         );
     }
