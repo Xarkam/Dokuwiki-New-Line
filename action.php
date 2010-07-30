@@ -12,20 +12,6 @@ require_once (DOKU_PLUGIN . 'action.php');
 class action_plugin_newline extends DokuWiki_Action_Plugin {
 
     /**
-     * return some info
-    */
-  function getInfo(){
-    return array(
-                 'author' => 'Xarkam',
-                 'email'  => 'Xarkam@gmail.com',
-                 'date'   => rtrim(io_readFile(DOKU_PLUGIN.'newline/VERSION.txt')),
-                 'name'   => 'New Line (action plugin component)',
-                 'desc'   => 'Insert a new line with \\\\',
-                 'url'    => 'http://wiki.splitbrain.org/plugin:newline',
-                 );
-  }
-
-    /**
      * Register the eventhandlers
      */
     function register(&$controller) {

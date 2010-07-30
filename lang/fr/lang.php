@@ -10,4 +10,4 @@
 $lang['encoding']   = 'utf-8';
 $lang['direction']  = 'ltr';
 
-$lang['qb_newlinebutton'] = 'Insérer le code de nouvelle ligne';
+$lang['qb_newlinebutton'] = 'InsÃ©rer le code de nouvelle ligne';
