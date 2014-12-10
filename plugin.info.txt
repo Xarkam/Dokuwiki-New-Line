@@ -1,7 +1,7 @@
 base   newline
 author xarkam
 email  xarkam@gmail.com
-date   2010-07-30
+date   2014-12-10
 name   newline
 desc   This plugin instert a new line wiki syntax
-url    http://www.dokuwiki.org/plugin:newline
+url    https://www.dokuwiki.org/plugin:newline
